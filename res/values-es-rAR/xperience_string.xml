@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 The XPerience Project
+<!-- Copyright (C) 2017 The Axolotl Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Settings Titles-->
-    <string name="xperience_settings_title">Configuración de XPerience™</string>
+    <string name="xperience_settings_title">Configuración de Axolotl</string>
     <string name="statusbar_title">Barra de estado </string>
     <string name="display_title">Ajustes de pantalla </string>
     <string name="recents_title">Ajustes de recientes</string>
@@ -90,8 +90,8 @@
     <string name="battery_percentage_next">Habilitado</string>
     <string name="battery_percentage_inside">Habilitado (icono interior)</string>
     <string name="battery_percentage_estimate">Habilitado (estimado)</string>
-    <!--XPerience Active Display -->
-    <string name="ActiveDisplay_title">Pantalla activa XPerience™</string>
+    <!--Axolotl Active Display -->
+    <string name="ActiveDisplay_title">Pantalla activa Axolotl</string>
     <string name="ActiveDisplay_summary">Pantalla activa es una nueva forma de manejo de notificaciones en Android.</string>
     <!-- Ambient music -->
     <string name="force_ambient_for_media_pref_title">Ahora suena</string>
@@ -123,8 +123,8 @@
     <string name="show_4g_title">Mostrar 4G</string>
     <string name="show_4g_summary">Mostrar 4G en lugar de LTE en los iconos de señal</string>
     <!-- Statusbar logo -->
-    <string name="status_bar_logo_title">Escudo de XPerience</string>
-    <string name="status_bar_logo_dialog_title">Posición del escudo de XPerience</string>
+    <string name="status_bar_logo_title">Escudo de Axolotl</string>
+    <string name="status_bar_logo_dialog_title">Posición del escudo de Axolotl</string>
     <string name="status_bar_logo_disabled">Desactivado</string>
     <string name="status_bar_logo_left">Izquierda</string>
     <string name="status_bar_logo_right">Derecha</string>

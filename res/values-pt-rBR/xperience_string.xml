@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 The XPerience Project
+<!-- Copyright (C) 2017 The Axolotl Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Settings Titles-->
-    <string name="xperience_settings_title">Configurações XPerience™</string>
+    <string name="xperience_settings_title">Configurações Axolotl</string>
     <string name="statusbar_title">Barra de status </string>
     <string name="display_title">Configurações de tela </string>
     <string name="recents_title">Configurações do Painel de Recentes</string>
@@ -76,7 +76,7 @@
     <string name="status_bar_battery_style_text">Texto</string>
     <string name="status_bar_battery_style_hidden">Oculto</string>
     <!-- Battery mode -->
-    <!--XPerience Active Display -->
+    <!--Axolotl Active Display -->
     <string name="ActiveDisplay_summary">O Active Display é uma nova forma de gerenciar notificações no Android.</string>
     <!-- Ambient music -->
     <string name="force_ambient_for_media_pref_title">Em reprodução</string>
@@ -106,8 +106,8 @@
     <string name="show_4g_title">Mostrar 4G</string>
     <string name="show_4g_summary">Mostrar 4G ao invés de LTE nos ícones de sinal</string>
     <!-- Statusbar logo -->
-    <string name="status_bar_logo_title">Brasão XPerience</string>
-    <string name="status_bar_logo_dialog_title">Posição do brasão XPerience</string>
+    <string name="status_bar_logo_title">Brasão Axolotl</string>
+    <string name="status_bar_logo_dialog_title">Posição do brasão Axolotl</string>
     <string name="status_bar_logo_disabled">Desativado</string>
     <string name="status_bar_logo_left">Esquerda</string>
     <string name="status_bar_logo_right">Direita</string>

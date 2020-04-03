@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 The XPerience Project
+<!-- Copyright (C) 2017 The Axolotl Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Settings Titles-->
-    <string name="xperience_settings_title">Pengaturan XPerience™</string>
+    <string name="xperience_settings_title">Pengaturan Axolotl</string>
     <string name="statusbar_title">Bilah Status </string>
     <string name="display_title">Pengaturan Tampilan </string>
     <string name="recents_title">Pengaturan Recents</string>
@@ -75,7 +75,7 @@
     <string name="status_bar_battery_style_text">Teks</string>
     <string name="status_bar_battery_style_hidden">Tersembunyi</string>
     <!-- Battery mode -->
-    <!--XPerience Active Display -->
+    <!--Axolotl Active Display -->
     <string name="ActiveDisplay_summary">Tampilan Aktif adalah cara baru untuk penanganan pemberitahuan di Android.</string>
     <!-- Ambient music -->
     <string name="force_ambient_for_media_pref_title">Sedang Diputar</string>
@@ -105,7 +105,7 @@
     <string name="show_4g_title">Tampilkan 4G</string>
     <string name="show_4g_summary">Tampilkan 4G dan bukan LTE di ikon sinyal</string>
     <!-- Statusbar logo -->
-    <string name="status_bar_logo_dialog_title">Posisi logo XPerience Shield</string>
+    <string name="status_bar_logo_dialog_title">Posisi logo Axolotl Shield</string>
     <string name="status_bar_logo_disabled">Dinonaktifkan</string>
     <string name="status_bar_logo_left">Kiri</string>
     <string name="status_bar_logo_right">Kanan</string>
