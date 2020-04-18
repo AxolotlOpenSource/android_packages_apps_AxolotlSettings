@@ -194,14 +194,14 @@ public class ButtonSettings extends ActionFragment implements
       setActionPreferencesEnabled(keysDisabled == 0);
 
         // volume key cursor control
-        mVolumeKeyCursorControl = (ListPreference) findPreference(VOLUME_KEY_CURSOR_CONTROL);
+        /*mVolumeKeyCursorControl = (ListPreference) findPreference(VOLUME_KEY_CURSOR_CONTROL);
         if (mVolumeKeyCursorControl != null) {
             mVolumeKeyCursorControl.setOnPreferenceChangeListener(this);
             int volumeRockerCursorControl = Settings.System.getInt(getContentResolver(),
                     Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0);
             mVolumeKeyCursorControl.setValue(Integer.toString(volumeRockerCursorControl));
             mVolumeKeyCursorControl.setSummary(mVolumeKeyCursorControl.getEntry());
-        }
+        }*/
 
   }
 
@@ -233,7 +233,7 @@ public class ButtonSettings extends ActionFragment implements
                       value ? 1 : 0);
               setActionPreferencesEnabled(!value);
               return true;
-		  } else if (preference == mVolumeKeyCursorControl) {
+		  }/* else if (preference == mVolumeKeyCursorControl) {
             String volumeKeyCursorControl = (String) objValue;
             int volumeKeyCursorControlValue = Integer.parseInt(volumeKeyCursorControl);
             Settings.System.putInt(getActivity().getContentResolver(),
@@ -243,7 +243,7 @@ public class ButtonSettings extends ActionFragment implements
             mVolumeKeyCursorControl
                     .setSummary(mVolumeKeyCursorControl.getEntries()[volumeKeyCursorControlIndex]);
             return true;
-		  }
+		  }*/
         return false;
     }
 

@@ -77,13 +77,13 @@ public class StatusBarBattery extends SettingsPreferenceFragment implements
         mStatusBarBatteryShowPercent.setSummary(mStatusBarBatteryShowPercent.getEntry());
         mStatusBarBatteryShowPercent.setOnPreferenceChangeListener(this);
 
-        mStatusBarBattery = (ListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
+        /*mStatusBarBattery = (ListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
          int batteryStyle = Settings.System.getInt(resolver,
                 Settings.System.STATUS_BAR_BATTERY_STYLE, 0);
         mStatusBarBattery.setValue(String.valueOf(batteryStyle));
         mStatusBarBattery.setSummary(mStatusBarBattery.getEntry());
         enableStatusBarBatteryDependents(batteryStyle);
-        mStatusBarBattery.setOnPreferenceChangeListener(this);
+        mStatusBarBattery.setOnPreferenceChangeListener(this);*/
 
         mBatteryCharging = (SwitchPreference) findPreference(STATUS_BAR_BATTERY_TEXT_CHARGING);
         /*int mChargingText = Settings.System.getInt(resolver,
@@ -107,7 +107,7 @@ public class StatusBarBattery extends SettingsPreferenceFragment implements
             mStatusBarBatteryShowPercent.setSummary(
                     mStatusBarBatteryShowPercent.getEntries()[index]);
             return true;
-          } else if (preference == mStatusBarBattery) {
+          } /*else if (preference == mStatusBarBattery) {
               int batteryStyle = Integer.valueOf((String) newValue);
               int index = mStatusBarBattery.findIndexOfValue((String) newValue);
               Settings.System.putInt(resolver,
@@ -115,7 +115,7 @@ public class StatusBarBattery extends SettingsPreferenceFragment implements
               mStatusBarBattery.setSummary(mStatusBarBattery.getEntries()[index]);
               enableStatusBarBatteryDependents(batteryStyle);
               return true;
-        }
+        }*/
         return false;
     }
 
